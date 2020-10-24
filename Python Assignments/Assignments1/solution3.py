@@ -3,5 +3,5 @@
 
 diameter_in_cm = 12
 PI = 3.14
-volume_of_sphere = 4*PI*(diameter_in_cm)**3
+volume_of_sphere = (4*PI*(diameter_in_cm)**3)/3
 print(f'Volume of sphere: {volume_of_sphere}')
