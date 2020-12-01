@@ -1,3 +1,15 @@
+#1. Write a program which accepts a sequence of comma-separated numbers from console and generate a list.
+
+a = input("Enter the number in comma seperated formated: ")
+
+b = a.split(',')
+
+output = [int(i) for i in b]
+print(output)
+print(type(output))
+
+
+
 #1. Create the below pattern using nested for loop in Python.
 
 #* 
